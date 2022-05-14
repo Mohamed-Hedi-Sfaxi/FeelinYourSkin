@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:context=".DayDryActivity">
+
+        <TextView
+            android:id="@+id/PerfectBioDry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:text="PERFECT BIO :\nHUILE DE RICIN"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CremeCollageneDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PerfectBioDry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/huile" />
+
+        <TextView
+            android:id="@+id/CremeCollageneDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="•	Riche en vitamines E et acide gras.
+\n• Très nourrissante
+\n•	Grâce à sa teneur importante en oméga 3, elle retarde l’apparition des rides et des cernes.
+\n•	Utile aux peaux grasses ou acnéiques, elle débarrasse de leurs toxines, des bac-téries et du surplus de sébum.
+
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HerbeosDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HERBÉOS™ :\nCrème Réparatrice Cicatrisante Nuit Peaux Grasses"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/HerbeosDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/reparatrice" />
+
+        <TextView
+            android:id="@+id/HerbeosDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="•	Formulée à partir d'ingrédient purifiants, hydratants et matifiants, cette crème convient parfaitement aux peaux grasses car elle limite et contrôle l’excès de sébum.
+\n• Elle réduit visiblement les imperfections (boutons et points noirs).
+\n• Elle offre une hydratation longue durée avec un fini matte.
+
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="L’Oryx Bio :\nGel nettoyant peaux grasses acnéique (collagène)"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/LeDuoDeJouvenceDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/gel" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Le Gel nettoyant au Collagène nettoie la peau en profondeur et élimines-en un seul geste les impuretés, les particules de pollution et toutes traces de maquillage sur le visage, les yeux et les lèvres.
+\nIl se caractérise par une mousse onctueuse qui est délicatement.
+Anti-âge, hydratant profond, améliore la fermeté et la souplesse de la peau.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="FLORAISON NATURAL BEAUTY :\nSAVON NOIR"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/DorisCosmetiqueDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/savonnoir" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Savon noir à l'huile d'olive et des huiles essentielles.
+\nConseils d'utilisation :
+\nAppliquez le savon noir 'Floraison' sur la peau humide, patientez cinq minutes, rincez puis frot-tez avec une serviette en insistant sur les zones rugueuses et enfin rincez à l'eau tiède.
+\nINGREDIENTS :
+\n•	ROSMARINUS OFFICINALIS WATER
+\n•	Olea europaea fruit oil
+\n•	black Olive
+\n•	Potassium hydroxyde
+\n•	Rosemary essential oil
+\n•	Mint essential oil
+\n•	Thyme essential oil
+\n•	Cypress essential oil
+\n•	Lavender essential oil
+\n•	LIMONENE
+\n•	LINALOOL
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

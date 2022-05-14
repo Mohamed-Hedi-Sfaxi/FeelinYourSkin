@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:context=".DayDryActivity">
+
+        <TextView
+            android:id="@+id/PerfectBioOily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERFECT BIO :\nSAVON GOMMANT"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textColor="#7353BA"
+            />
+
+        <ImageView
+            android:id="@+id/SavonOily"
+            android:layout_below="@+id/PerfectBioOily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/savon"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/SavonOilyDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Savon pour peaux mixtes à grasses riche en pépins de figue de barbarie."
+            android:textSize="18sp"
+            android:layout_below="@+id/SavonOily"
+            android:layout_marginHorizontal="5dp"
+            android:textStyle="bold"
+            android:textColor="#51414F"
+            />
+
+        <TextView
+            android:id="@+id/HerbeosOilyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SavonOilyDesc"
+            android:text="HERBÉOS™ :\nLe Duo Purifiant Peaux Grasses"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textColor="#7353BA"
+            />
+
+        <ImageView
+            android:id="@+id/PurifiantOily"
+            android:layout_below="@+id/HerbeosOilyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/purifiant"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/PurifiantOilyDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Nettoie en profondeur et purifie votre peau. Purifie la peau\n• Régule le sébum, corrige les boutons et les points noirs et resserre les pores.\n• Régénère la peau et renforce la barrière cutanée contre les agressions extérieures."
+            android:textSize="18sp"
+            android:layout_below="@+id/PurifiantOily"
+            android:layout_marginHorizontal="5dp"
+            android:textStyle="bold"
+            android:textColor="#51414F"
+            />
+
+        <TextView
+            android:id="@+id/FloraisonOilyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PurifiantOilyDesc"
+            android:text="FLORAISON CRÈME COLLAGEN : \nPEAU MIXTES À GRASSES"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textColor="#7353BA"
+            />
+
+        <ImageView
+            android:id="@+id/FloraisonOily"
+            android:layout_below="@+id/FloraisonOilyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/floraison"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/FloraisonOilyDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dès la première application, idéalement hydratée, votre peau se gorge d'une sensation de fraicheur. Jour après jour, la luminosité du teint est boostée et les premiers signes de l'âge sont estompés : la peau est lissée, défroissée, plus rebondie, les rides sont atténuées, les ridules sont lissées, et la peau est régénéré, nourrie et plus souple."
+            android:textSize="18sp"
+            android:layout_below="@+id/FloraisonOily"
+            android:layout_marginHorizontal="5dp"
+            android:textStyle="bold"
+            android:textColor="#51414F"
+            />
+
+        <TextView
+            android:id="@+id/LadyBioOilyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FloraisonOilyDesc"
+            android:text="LADY BIO :\nGORGEOUS"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textColor="#7353BA"
+            />
+
+        <ImageView
+            android:id="@+id/LadyBioOily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LadyBioOilyText"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/lotion"
+            />
+
+        <TextView
+            android:id="@+id/LadyBioOilyDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cette crème s’utilise au quotidien jour et nuit, elle nourrit votre peau, élimine visiblement les signes du temps, améliore l’uniformité du teint, lutte contre l’hyperpigmentation, diminue visiblement les taches pigmentaires et cicatricielles, diminue les imperfections, rides et ridules et régule le sébum."
+            android:textSize="18sp"
+            android:layout_below="@+id/LadyBioOily"
+            android:layout_marginHorizontal="5dp"
+            android:textStyle="bold"
+            android:textColor="#51414F"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

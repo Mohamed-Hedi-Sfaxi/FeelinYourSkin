@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:context=".DayDryActivity">
+
+        <TextView
+            android:id="@+id/PerfectBioDry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:text="HERBÉOS™ :\nCrème Hydra Clarifiante Éclat Nuit Peaux Mixtes "
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CremeCollageneDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PerfectBioDry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/cremehydraclarifiante" />
+
+        <TextView
+            android:id="@+id/CremeCollageneDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Formulée à partir d’ingrédients hydratants, clarifiants et équilibrants (huile de pé-pins de figue de barbarie bio, huile de jojoba bio, acides des fruits et acide hya-luronique), cette crème Hydra clarifiante éclat nuit pour peaux mixtes à grasse sti-mule la production naturelle de collagène, aide à réduire les tâches pigmentaires et unifient la couleur de la peau.
+\n•	Convient aux peaux mixtes à grasses.
+\n•	Réduit l’excès de sébum.
+\n•	Elimine les cellules mortes.
+\n•	Elimine les imperfections cutanées.
+\n•	Aide à resserrer les pores dilatés.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HerbeosDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="PERFECT BIO :\nNILA LOTION"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/HerbeosDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/nila" />
+
+        <TextView
+            android:id="@+id/HerbeosDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Gel Nettoyant Éclaircissant :
+\nDouble action
+\nRiche en acide hyaluronique et Indigo bleu
+\nMode d’emploi:
+\nAppliquer 1 pompe de gel nettoyant sur votre peau matin et soir.
+\nAugmenter la quantité progressivement au besoin.
+\nMassez doucement le gel et faites  mousser sur la peau de votre visage et sur le con-tour des yeux.
+\nRincez votre visage à l’eau tiède.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="FLORAISON :\nCOLLAGEN"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/LeDuoDeJouvenceDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/collagen" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="La gamme comporte :
+\n• Crème collagène pour la peau mixte à grasse
+\n• Sérum Elixir collagène
+\n• Huile de figue de barbarie
+\n• Masque collagène
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="FLORAISON :\nGREEN CLAY SOAP"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/DorisCosmetiqueDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/greensoap" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Savon surgras à l'argile verte - pour les peaux mixtes à grasses
+\nINGREDIENTS :
+\n•	Olive Oil.
+\n•	Coconut Oil.
+\n•	Rosemary hydrolate.
+\n•	Vegetal Glycerine from cold soaponification.
+\n•	Shea Butter.
+\n•	Green clay.
+\n•	Caster Oil.
+\n•	Lin seed oil.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

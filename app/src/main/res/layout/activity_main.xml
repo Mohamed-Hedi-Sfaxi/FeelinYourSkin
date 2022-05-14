@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:contentDescription="@string/products"
+      android:id="@+id/products"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/hey"
+      android:src="@drawable/products"
+      android:layout_centerVertical="false"
+      android:layout_centerHorizontal="true"
+      />
+
+
+  <TextView
+      android:id="@+id/hey"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_marginHorizontal="30dp"
+      android:gravity="center"
+      android:text="@string/hey_beautiful_welcome_to_feelinyourskin"
+      android:textColor="#7353BA"
+      android:textSize="35sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/meet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/hey"
+      android:layout_marginTop="10dp"
+      android:layout_centerVertical="true"
+      android:layout_marginHorizontal="40dp"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:text="@string/meet_your_new_best_friend_feelinyourskin_create_skincare_routines_and_follow_your_product_s_validity"
+      android:textColor="#7353BA"
+      android:textSize="20sp"
+      />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/register_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/meet"
+      android:layout_marginVertical="20dp"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="false"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="210dp"
+      android:backgroundTint="@color/white"
+      android:padding="15dp"
+      android:text="@string/register"
+      android:textColor="#7353BA"
+      android:textStyle="bold" />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/login_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/meet"
+      android:layout_marginVertical="20dp"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="false"
+      android:layout_marginStart="210dp"
+      android:layout_marginEnd="40dp"
+      android:backgroundTint="#7353BA"
+      android:padding="15dp"
+      android:text="@string/sign_in"
+      android:textStyle="bold" />
+
+  </RelativeLayout>

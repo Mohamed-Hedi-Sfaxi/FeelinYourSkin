@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RoutineTypeActivity">
+
+
+    <TextView
+        android:id="@+id/RoutineType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/now_choose_your_type_of_routine"
+        android:textColor="#7353BA"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/DayPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoutineType"
+        android:contentDescription="@string/daypic"
+        android:adjustViewBounds="true"
+        android:maxHeight="400dp"
+        android:src="@drawable/day"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <ImageView
+        android:id="@+id/NightPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoutineType"
+        android:contentDescription="@string/nightpic"
+        android:adjustViewBounds="true"
+        android:maxHeight="400dp"
+        android:src="@drawable/night"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/DayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DayPic"
+        android:layout_marginVertical="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="230dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="@string/day"
+        android:textColor="#7353BA"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/NightBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NightPic"
+        android:layout_marginVertical="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#7353BA"
+        android:padding="15dp"
+        android:text="@string/night"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

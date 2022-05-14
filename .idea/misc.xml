@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/faysa/Desktop/FeelinYourSkin/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2045" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1675" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1675" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2045" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2389558232931727" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.27890625" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_day_dry.xml" value="0.25841476655808904" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_day_mixed.xml" value="0.2625" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_day_oily.xml" value="0.2852576907710747" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_female_skin.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_gender.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_day_dry.xml" value="0.36615384615384616" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_day_mixed.xml" value="0.2274609748327493" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_day_oily.xml" value="0.2274609748327493" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_night_dry.xml" value="0.2274609748327493" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_night_mixed.xml" value="0.2274609748327493" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_night_oily.xml" value="0.2274609748327493" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_male_skin.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_night_dry.xml" value="0.2824367088607595" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_night_mixed.xml" value="0.36615384615384616" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_night_oily.xml" value="0.29638854296388545" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_routine.xml" value="0.3578125" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_routinetype.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_second.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/layout/activity_skin.xml" value="0.371875" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2395" />
+        <entry key="..\:/Users/faysa/Desktop/SkinCareApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

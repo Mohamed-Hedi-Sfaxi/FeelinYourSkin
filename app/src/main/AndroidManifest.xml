@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skincareapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinCareApp">
+        <activity
+            android:name=".MaleNightOilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleNightMixedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleNightDryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleDayOilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleDayMixedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleDayDryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaleSkinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NightMixedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DayMixedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NightDryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DayDryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NightOilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DayOilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FemaleSkinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

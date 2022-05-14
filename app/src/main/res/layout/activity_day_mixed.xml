@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".DayDryActivity">
+
+    <TextView
+        android:id="@+id/PerfectBioMixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERFECT BIO : \nCRÈME HYDRA-MATIFIANTE"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/CremeHydraMatifianteMixed"
+        android:layout_below="@+id/PerfectBioMixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cremehydramatifiante"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/CremeHydraMatifianteMixedDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crème hydratante pour peau mixte à base d’huile d’argan, aloe Vera, huile de noisette, huile pépin de grenade et en hydrolat de rose."
+        android:textSize="18sp"
+        android:layout_below="@+id/CremeHydraMatifianteMixed"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/HerbeosMixedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CremeHydraMatifianteMixedDesc"
+        android:text="HERBÉOS™ \nGel Visage Nettoyant Purifiant Peaux Mixtes :"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/GelVisageMixed"
+        android:layout_below="@+id/HerbeosMixedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gelvisage"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/GelVisageMixedDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Grâce à sa formule riche en actifs purifiants (extrait du nénuphar blanc, aloé vera, chlorophylle, huiles essentielles de citron, lavande et ylang ylag), ce gel de visage Herbéos nettoie en douceur les peaux mixtes à grasses en éliminant les impuretés et l'excès de sébum. \n• Le gel visage nettoyant purifiant herbéos purifie la peau et resserre les pores. \n• Sa formule sans sulfate préserve le film hydrolipidique naturel de la peau pour la nettoyer sans la dessécher"
+        android:textSize="18sp"
+        android:layout_below="@+id/GelVisageMixed"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/ArgileVerteMixedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/GelVisageMixedDesc"
+        android:text="HERBÉOS™ : \nArgile Verte Surfine Pour Peaux Mixtes"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/ArgileVerteMixed"
+        android:layout_below="@+id/ArgileVerteMixedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/argileverte"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/ArgileVerteMixedDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convient parfaitement aux peaux grasses et peaux mixtes, cette poudre d'argile verte est une poudre absorbante et purifiante. Une fois appliquée sur le visage elle absorbe les impuretés et les toxines."
+        android:textSize="18sp"
+        android:layout_below="@+id/ArgileVerteMixed"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/LotionMixedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ArgileVerteMixedDesc"
+        android:text="HERBÉOS™ :\nLotion Micelaire Peaux Mixtes à Grasses"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/LotionMixed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LotionMixedText"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lotion"
+        />
+
+    <TextView
+        android:id="@+id/LotionMixedDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Nettoie en douceur les peaux mixtes à grasses. \n• Élimine les impuretés, le maquillage et les particules de pollution. \n• Resserre les pores. \n• Régule l'excès de sébum."
+        android:textSize="18sp"
+        android:layout_below="@+id/LotionMixed"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:context=".DayDryActivity">
+
+        <TextView
+            android:id="@+id/PerfectBioDry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:text="HERBÉOS™ :\nMousse Nettoyante Homme Aloé Vera et Menthe Verte 170 ml"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CremeCollageneDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PerfectBioDry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/mousse" />
+
+        <TextView
+            android:id="@+id/CremeCollageneDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="BÉNÉFICES
+\n•	Elle nettoie et purifie la peau.
+\n•	Elle élimine toutes les impuretés et resserre les pores dilatés.
+\n•	Elle a une texture fine et aérienne
+\nCOMMENT L'UTILISER ?
+\nAppliquer matin et/ou soir 2 doses sur le visage humide. Masser pour émulsionner et éliminer toutes les impuretés. Rincer abondamment. Eviter le contact avec les yeux.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HerbeosDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HERBÉOS™ :\nHuile Pour Cheveux et Barbe (2 en 1) 100 ml"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/HerbeosDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/cheveuxetbarbe" />
+
+        <TextView
+            android:id="@+id/HerbeosDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="BÉNÉFICES
+\nNotre huile naturelle pour cheveux et barbe est un mélange d'huiles végétales naturelles et biologiques bénéfiques. Elle est légère, non grasse et s'absorbe rapident. Elle protège et revitalise les cheveux. Elle hydrate et nourrit également le cuir chevelu et la peau sous la barbe.
+\nCOMMENT L'UTILISER ?
+\nFaites chauffer une petite quantité dans les mains et répartissez uniformément sur les cheveux et la barbe. Pour un entretien de la barbe efficace, utilisez cette huile au moins 3 fois par semaine, nous préconisons une utilisation le soir avant de se coucher pour un effet optimal.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HERBÉOS™ :\nBaume Après Rasage Beurre De Karité et Aloé Vera 100 ml"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/LeDuoDeJouvenceDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/baume" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="BÉNÉFICES
+\n•	Procure à la peau une hydratation longue durée pour un confort optimal.
+\n•	Apaiseme immédiatement les 5 signes d’irritation dus au rasage : échauffement, rougeur, sécheresse, tiraillement, démangeaison.
+\nCOMMENT L'UTILISER ?
+\nAppliquer une à deux noisettes du produit sur la peau rasée en évitant le contour des yeux.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="QIRINESS :
+\nMOUSSE DOUBLE ACTION MEN
+\nSOIN DU VISAGE
+"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/DorisCosmetiqueDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/qiriness" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="DESCRIPTION :
+\nVéritable produit 2-en-1, la Mousse Double Action permet un nettoyage optimal du visage, tout en facilitant le rasage grâce à sa texture ultra onctueuse et fraîche.La peau est nettoyée, fraîche et tonifiée, sans sensation de tiraillement.
+\nL’étape du rasage devient agréable et confortable, avec une glisse parfaite de la lame.Nettoyage – Tous les jours, matin et soir. Appliquez sur peau sèche et massez par mouvements circulaires. Rincez abondamment à l’eau tiède.
+\nRasage – Appliquez la mousse sur la barbe et procédez au rasage.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CollistarDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="COLLISTAR :
+\nCRÈME HYDRATANTE VISAGE
+\nSOIN DU VISAGE
+"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CollistarDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CollistarDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/collistar" />
+
+        <TextView
+            android:id="@+id/CollistarDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CollistarDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="•	DESCRIPTION :
+\nHydratation intense, effet mat instantané, action progressive d’équilibrage du sébum et protection contre les agents externes en une seule fois.Fraîche, légère et instantanément absorbée, cette crème est le traitement quotidien idéal pour les hommes à la peau mixte et grasse.La formule totalement novatrice et l'exclusif Mat-Perfect Men Collistar® contiennent des vitamines F et B6 normalisantes et protectrices, de l'acide hyaluronique hydratant, de la vitamine E anti-radicalaire et des poudres ultra-micronisées sélectionnées qui absorbent l'excès de sébum pour un effet anti-brillance instantané. effet et une peau agréablement douce, souple et matte à tout moment de la journée. Utilisé régulièrement avec le Mousse-Scrub, il normalise la peau, la laissant pure et lisse, avec une texture plus fine et plus uniforme, en minimisant le gras et la taille des pores.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ClarinsDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CollistarDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="CLARINS :
+\nANTI-RIDES FERMETÉ MEN
+\nSOIN DU VISAGE
+"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ClarinsDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ClarinsDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/clarins" />
+
+        <TextView
+            android:id="@+id/ClarinsDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ClarinsDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="DESCRIPTION :
+\nDébut de relâchement ? Cou qui s’empâte ? Ce soin visage homme hydratant redonne un coup de jeune au visage… Et au moral ! Il réduit visiblement rides et sillons et raffermit la peau. Les traits du visage sont visiblement retendus. Existe en deux versions : un fluide confortable et une crème “peaux sèches”.
+"
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

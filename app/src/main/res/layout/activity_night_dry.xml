@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        tools:context=".DayDryActivity">
+
+        <TextView
+            android:id="@+id/PerfectBioDry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="30dp"
+            android:text="PERFECT BIO :\nAHA SERUM"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/CremeCollageneDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PerfectBioDry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/serum" />
+
+        <TextView
+            android:id="@+id/CremeCollageneDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Le sérum s’applique le soir sur une peau parfaitement propre et sèche.\n
+• Favorise le renouvellement cellulaire\n
+• Son effet peeling permet de redonner de l’élasticité à la peau.\n
+• Favoriser l’atténuation des tâches et par conséquent unifier et éclaircir le teint."
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HerbeosDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CremeCollageneDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="DORIS COSMETIQUE\nCREME DE NUIT :"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/HerbeosDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/doris" />
+
+        <TextView
+            android:id="@+id/HerbeosDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Doris est une crème polyvalente à 100% est un traitement efficace, Son parfum vous enve-loppe dans une caresse irrésistible et séduisante. Cette crème, à la texture onctueuse et fondante, procure dès la première application une sensation de confort absolu. Pénètre au cœur de l'épiderme et libère progressivement un cocktail d'actifs nourrissants et régénérant (huile d'argan, beurre de karité et vitamine E) la peau est ainsi nourrie en profondeur et l'hydratation optimisée. Doris crème de nuit apporte à la peau ses propriétés ré-équilibrantes, reconstituantes et régénératrices et prévient le vieillissement cutané prématuré."
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HerbeosDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HERBÉOS™ :\nCrème Nutri Protectrice Nuit Peaux Normales à Sèches"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/LeDuoDeJouvenceDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/cremenutri" />
+
+        <TextView
+            android:id="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="• Convient pour peaux normales à sèches\n
+• Grâce à sa texture veloutée et à sa formule riche en actifs hydratants, cette crème nutri-protectrice nuit pour peaux normales à sèches hydrate en profondeur, lisse et adoucit votre peau.\n
+• Contient de l'huile de pépins de figue de barbarie, cette crème aide votre peau à lutter contre les méfaits des radicaux libres, elle répare la peau pendant la nuit.\n
+• Dévoile l’éclat naturel de votre teint."
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LeDuoDeJouvenceDryDesc"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="HERBÉOS™ :\nCrème Hydra Clarifiante Éclat Nuit Peaux Sèches"
+            android:textColor="#7353BA"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/DorisCosmetiqueDry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDryText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/clarifiante" />
+
+        <TextView
+            android:id="@+id/DorisCosmetiqueDryDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DorisCosmetiqueDry"
+            android:layout_marginHorizontal="5dp"
+            android:text="Le soir, Appliquer cette Crème sur la peau nettoyée et masser légèrement pour la faire pénétrer.\n
+Formulée à partir d’ingrédients hydratants, clarifiants et équilibrants (huile de pépins de figue de barbarie bio, huile de jojoba bio, acides des fruits et acide hyaluronique), cette crème Hydra clarifiante éclat nuit pour peaux normales à sèches stimule la production naturelle de collagène, aide à réduire les tâches pigmentaires et unifient la couleur de la peau.\n
+• Convient aux peaux normales à sèches.\n
+• Nourrit la peau.\n
+• Elimine les cellules mortes.\n
+• Elimine les imperfections cutanées."
+            android:textColor="#51414F"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

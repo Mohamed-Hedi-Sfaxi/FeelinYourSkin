@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".DayDryActivity">
+
+    <TextView
+        android:id="@+id/PerfectBioDry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERFECT BIO : \nCRÈME COLLAGÈNE"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/CremeCollageneDry"
+        android:layout_below="@+id/PerfectBioDry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cremecollagene"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+       />
+
+    <TextView
+        android:id="@+id/CremeCollageneDryDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C’est une crème anti-rides hydratante qui donne un coup d’éclat et effet lifting Pour peau sèche, riche en huile de pépin de figue de barbarie, huile d’argan et en collagène marin."
+        android:textSize="18sp"
+        android:layout_below="@+id/CremeCollageneDry"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/HerbeosDryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CremeCollageneDryDesc"
+        android:text="HERBÉOS™ :\nCrème Hydra Protectrice Jour Peaux Normales à Sèches 30 ml"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/HerbeosDry"
+        android:layout_below="@+id/HerbeosDryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/herbeos"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/HerbeosDryDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Convient pour peaux normales à sèches \n• Grâce à sa texture veloutée et à sa formule riche en actifs hydratants, cette crème Hydra-protectrice jour hydrate en profondeur, lisse et adoucit votre peau. \n• Contient de l'huile de pépins de framboise, cette crème aide votre peau à lutter contre les méfaits d'une exposition aux rayons du soleil. \n• Dévoile l’éclat naturel de votre teint."
+        android:textSize="18sp"
+        android:layout_below="@+id/HerbeosDry"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/LeDuoDeJouvenceDryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HerbeosDryDesc"
+        android:text="Le Duo De Jouvence :"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/LeDuoDeJouvenceDry"
+        android:layout_below="@+id/LeDuoDeJouvenceDryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leduodejouvence"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/LeDuoDeJouvenceDryDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le matin, après avoir parfaitement nettoyé votre peau, appliquez la crème de visage sur le visage, le cou et le décolleté. Effectuez de petits mouvements circulaires pour faire pénétrer les actifs apaisants et nourrissants. \n• Prévention contre les signes de l’âge : Lisse les rides d’expression. \n• Éclat et luminosité : Hydrate votre peau en profondeur, resserre les pores et unifie votre teint. \n• Antitaches : Élimine les tâches brunes et les rougeurs diffuses."
+        android:textSize="18sp"
+        android:layout_below="@+id/LeDuoDeJouvenceDry"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+    <TextView
+        android:id="@+id/DorisCosmetiqueDryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LeDuoDeJouvenceDryDesc"
+        android:text="Doris Cosmétique :\nCrème de jour - SPF 30 - 50Ml"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textColor="#7353BA"
+        />
+
+    <ImageView
+        android:id="@+id/DorisCosmetiqueDry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DorisCosmetiqueDryText"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/doriscosmetique" />
+
+    <TextView
+        android:id="@+id/DorisCosmetiqueDryDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crème de Jour pour Visage - Hydratante - Protectrice avec SPF30 Doris est une crème polyvalente à 100% est un traitement efficace, Elle hydrate, nourrit et stimule votre peau chaque jour pour lui rendre plus résistante, et rayonnante. Elle protège la peau des agressions extérieures (vent, froid, soleil, pollution, sécheresse de l'air…) et lui restitue élasticité, éclat et jeunesse."
+        android:textSize="18sp"
+        android:layout_below="@+id/DorisCosmetiqueDry"
+        android:layout_marginHorizontal="5dp"
+        android:textStyle="bold"
+        android:textColor="#51414F"
+        />
+
+</RelativeLayout>
+
+</ScrollView>
